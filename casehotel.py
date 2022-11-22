@@ -1,6 +1,6 @@
 # Case-study 
-# Developers: Abrarova V. (40%)
-#             Skorokhodov M.(80%)
+# Developers: Skorokhodov M.(80%)
+#             Abrarova V. (40%)
 
 class Hotel:
     # Importing hotel information.
@@ -293,7 +293,7 @@ class Hotel:
                                                             break
                                                         continue
 
-                    # Marking agreed and refused clients.
+                    # Marking agreed, disagreed clients and clients who could not find the room.
                     if max_price != 0:
                         for i in self.infabouthotel:
                             if i[0] == number1:
